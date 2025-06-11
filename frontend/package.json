@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "nuxt preview"
+    "start": "nuxt preview",
+    "vercel-build": "nuxt build"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
