@@ -1,4 +1,6 @@
 {
+  "framework": "nuxtjs",
   "buildCommand": "cd frontend && npm run build",
-  "installCommand": "cd frontend && npm install"
+  "installCommand": "cd frontend && npm install",
+  "outputDirectory": "frontend/.vercel/output/static"
 } 

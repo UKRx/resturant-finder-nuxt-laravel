@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   
   // Server-side rendering configuration
   ssr: true,
+  nitro: {
+    preset: 'vercel'
+  },
   
   // CSS framework and styling
   css: [
