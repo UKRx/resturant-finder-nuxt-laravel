@@ -8,6 +8,7 @@ Dockerfile
 .env.test.local
 .env.production.local
 node_modules/
+frontend/node_modules/
 .DS_Store
 *.tgz
 *.tar.gz
