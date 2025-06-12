@@ -33,7 +33,7 @@ export default defineNuxtConfig({
     
     // Public keys (exposed to client-side)
     public: {
-      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'https://your-backend-url.com/api',
+      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'https://defeated-stove-production.up.railway.app/api',
       googleMapsApiKey: process.env.NUXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''
     }
   },
